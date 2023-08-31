@@ -14,9 +14,8 @@ const CorgiImg = forwardRef((props, ref) => {
 
     const [currentMotions, setCurrentMotions] = useState([]);
 
-    const firstChildRef = useRef(null);
 
-    const corgiref = ref == null ? useRef(null) : ref;
+    const corgiref = useRef(null); // 조건부로 useRef를 사용
 
     useEffect(() => {
      
@@ -82,5 +81,7 @@ const CorgiImg = forwardRef((props, ref) => {
 
   return <>{renderMotionDiv()}</>;
 });
+
+CorgiImg.displayName = "CorgiImg"; // displayName 설정
 
 export default CorgiImg;
