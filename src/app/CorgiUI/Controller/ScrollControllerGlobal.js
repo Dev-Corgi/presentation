@@ -1,3 +1,4 @@
+
 export default class ScrollControllerGlobal {
   constructor(delay) {
     this.eventTarget = new EventTarget();
