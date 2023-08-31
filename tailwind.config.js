@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pretendardSemiBold: "Pretendard-SemiBold",
+        pretendardExtraBold: "Pretendard-ExtraBold",
+        pretendardBold: "Pretendard-Bold",
+        pretendardRegular: "Pretendard-Regular"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
