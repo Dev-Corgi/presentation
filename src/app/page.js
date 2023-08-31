@@ -5,9 +5,9 @@ import Gallary from './pages/Gallary/page'
 import ScrollPage from './pages/ScrollPage/page'
 export default function Home() {
   return (
-  //  <Dictionary1></Dictionary1>
+   <Dictionary1></Dictionary1>
   //  <Dictionary2></Dictionary2>
       //  <Gallary></Gallary>
-      <ScrollPage></ScrollPage>
+      // <ScrollPage></ScrollPage>
   )
 }
