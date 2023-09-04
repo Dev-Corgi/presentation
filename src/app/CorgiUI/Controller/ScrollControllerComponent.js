@@ -1,7 +1,6 @@
 export default class ScrollControllerComponent {
   constructor(delay) {
     this.ref = null
-    this.type = "component"
     this.eventTarget = new EventTarget();
     this.event = new CustomEvent('scrollevent', {
       detail :{

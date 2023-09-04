@@ -6,7 +6,8 @@ export default class ButtonController {
         state: 0,
         value: 0
       }
-    });
+    }
+    );
     this.condition = true;
     this.delay = delay;
     this.handleButton = this.handleButton.bind(this);

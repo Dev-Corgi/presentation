@@ -14,8 +14,8 @@ export default class ScrollControllerGlobal {
     this.eventname = 'scrollevent';
   }
 
+
   handleScroll(event) {
-    console.log("scroll")
     if (this.condition) {
       this.condition = false;
 

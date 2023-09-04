@@ -11,7 +11,8 @@ module.exports = {
         pretendardSemiBold: "Pretendard-SemiBold",
         pretendardExtraBold: "Pretendard-ExtraBold",
         pretendardBold: "Pretendard-Bold",
-        pretendardRegular: "Pretendard-Regular"
+        pretendardRegular: "Pretendard-Regular",
+        bookkmyeongjo: "Bookk-MyeongJo"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
